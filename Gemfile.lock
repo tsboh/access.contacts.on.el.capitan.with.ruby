@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rb-scpt (1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rb-scpt
+
+BUNDLED WITH
+   1.12.5
