@@ -18,11 +18,14 @@ require "osax"
 include Appscript, OSAX
 
 # create Application object for Address Book
-AB  = app("Address Book")
+AB  = app("Contacts")
 
 # build a ref to only those people within the group: "rubytestgroup"
 # note: be sure to have such a group (with members)
 ref = AB.groups["rubytestgroup"]
+
+puts ref.inspect
+puts "I'm up and running"
 
 # show names of group members
 ref.people.get.each do |person|
