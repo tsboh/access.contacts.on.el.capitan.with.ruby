@@ -29,13 +29,13 @@ __NOTE:__ Be sure to have a group with people in it to be able to see results.
 
 Just tested it. It works!!. Had only a problem with bundler. Its said: 
 
-          `Could not find gem 'rb-scpt' in any of the gem sources listed in your Gemfile or available on this machine.`
+`Could not find gem 'rb-scpt' in any of the gem sources listed in your Gemfile or available on this machine.`
           
-          Solved it with: 
+Solved it with: 
 
-          `bundle install --full-index`
+`bundle install --full-index`
 
-          have some patience
+have some patience
 
 ## Feedback, yes please, thank you
 Please give me some slack. These are my first experience's with, markdown, git, github, sharing source code and I'm still not and big expert in Ruby.
